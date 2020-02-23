@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    
+}
+.container{
+    width: 1140px;
+    margin: 20px auto 0 auto;
+}
+.blog-post {
+    width: 75%;
+  
+    padding-right:30px;
+      position: relative;
+  
+}
+
+  .date {
+        color: blue;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+.head1{
+	
+}
+.head2{
+	margin-top:20px;
+}
+header
+{
+    background-image: url("bgimg.jpg");  /*the background shade is made a lil bit lighter                               by using linear gradient*/
+    height: 220vh;           
+    background-size:cover;      /*this made the background pic smaller and fit                               the screen*/
+    background-position: center;
+     background-attachment: fixed;   
+}

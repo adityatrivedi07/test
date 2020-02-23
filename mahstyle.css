@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    
+}
+.heading{
+	color:white;
+
+}
+header{
+	    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("goi.jpg");  /*the background shade is made a lil bit lighter                               by using linear gradient*/
+    height: 200vh;            
+    background-size:cover;      /*this made the background pic smaller and fit                               the screen*/
+    background-position: center;
+     background-attachment: fixed;   
+	
+}
+p{
+	color:white;
+	
+}
+.image1{
+	float:left;
+	margin-left:50px;
+	margin-top:100px;
+	
+}
+.image2{
+	float:left;
+	margin-left:50px;
+	margin-top:100px;
+	
+}
+
+.image3{
+	float:left;
+	margin-left:50px;
+margin-top:100px;
+}
+.image4{
+	float:left;
+	margin-left:50px;
+	margin-top:100px;
+	margin-right:50px;
+}
+.nasikimg img{
+    opacity: 0.7;/*makes opacity of backfround color black transparent so we can view the image*/
+   
+transform:scale(1.15);/*zoom ins image*/
+    transition: transform 0.5s;
+   
+    }
+.nasikimg img:hover{
+    opacity: 1; /*when hovered opacity becomes 100% from 0.7/70%*/
+transform:scale(1.03);/*zoom ots image*/
+    }
+	.gateimg img{
+    opacity: 0.7;/*makes opacity of backfround color black transparent so we can view the image*/
+   
+transform:scale(1.15);/*zoom ins image*/
+    transition: transform 0.5s;
+   
+    }
+.gateimg img:hover{
+    opacity: 1; /*when hovered opacity becomes 100% from 0.7/70%*/
+transform:scale(1.03);/*zoom ots image*/
+    }
+		.ajantaimg img{
+    opacity: 0.7;/*makes opacity of backfround color black transparent so we can view the image*/
+   
+transform:scale(1.15);/*zoom ins image*/
+    transition: transform 0.5s;
+   
+    }
+.ajantaimg img:hover{
+    opacity: 1; /*when hovered opacity becomes 100% from 0.7/70%*/
+transform:scale(1.03);/*zoom ots image*/
+    }
+	.cstaimg img{
+    opacity: 0.7;/*makes opacity of backfround color black transparent so we can view the image*/
+   
+transform:scale(1.15);/*zoom ins image*/
+    transition: transform 0.5s;
+   
+    }
+.cstimg img:hover{
+    opacity: 1; /*when hovered opacity becomes 100% from 0.7/70%*/
+transform:scale(1.03);/*zoom ots image*/
+    }
